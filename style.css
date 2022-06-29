@@ -1,0 +1,67 @@
+body{
+
+
+    height: 1200px;
+    background-image: linear-gradient(180deg, rgb(147, 75, 189), rgb(79, 56, 163));
+
+}
+
+
+
+
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+
+
+.but1{
+
+
+    font-size: 300%;
+    margin-left: 800px;
+    padding: 50px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: rgb(145, 80, 211);
+
+}
+
+
+
+.but2{
+
+    font-size: 300%;
+    margin-left: 820px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    border-color: white;
+    background-color:  rgb(145, 80, 211);
+
+
+
+
+}
+
+
+.but3{
+
+
+    
+    font-size: 300%;
+    margin-left: 820px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: rgb(145, 80, 211); 
+    
+
+}
