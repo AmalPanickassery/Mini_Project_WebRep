@@ -1,11 +1,29 @@
 body{
 
-
+   /*
     height: 1200px;
-    background-image: linear-gradient(180deg, rgb(147, 75, 189), rgb(79, 56, 163));
+    background-image: linear-gradient(180deg, rgba(84, 127, 206, 0.781), rgb(134, 116, 201));
+    */
+
+   margin: 0; /*helps to get rid of the space between the image and the viewport*/
+
+
+
+
+
+
+
 
 }
 
+.backgndimg
+{
+    background-image: url(./buildings2.jpg);
+    height: 100vh;
+    filter: blur(3px);
+    
+
+}
 
 
 
@@ -76,6 +94,13 @@ body{
 /* Dropdown Button */
 
 
+
+
+
+
+
+
+
 .dropdown{
 
     position: absolute;
@@ -86,19 +111,20 @@ body{
 
 }
 
-.but4{
+.but4{  /* button parameters*/
 
     position: relative;
-    width: 200px;
-    height: 60px;
-    font-size: 25px;
-    background-color: rgb(147, 89, 217);
+    width: 400px;
+    height: 80px;
+    font-size: 35px;
+    background-color: rgb(58, 97, 224);
     border:none;
-    box-shadow: none;
+    box-shadow: 0px 5px 8px rgb(128, 154, 189);
     outline: none;
     cursor: pointer;
     color: white;
     border-radius: 10px;
+    
 
 }
 
@@ -109,6 +135,53 @@ ul{
     position: absolute;
     margin: 0;
     padding: 0;
+    width: 100%;
+    background: #ccc;
+    transform-origin: top;
+    transform: perspective(1000px) rotateX(-90deg);/* helps rotate the options 90 degrees so that it is hidden*/
+    transition: 0.5s;
+   
+
+
+}
+
+
+ul.active
+{
+transform: perspective(1000px) rotateX(0deg); /*sets the action , so that it happens when clicked. */
+
+}
+
+ul li {
+
+    list-style: none; /* style to the bullet points*/
+    
+
+
+}
+
+ul li a{
+
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none; /* adds a decoration to text*/
+    background: #262626;
+    color: #fff; /*font colour*/
+    border-bottom: 1px solid rgba(0,0,0,.2); /* to add a line under each option)*/
+    transition: 0.5s; /* transition time for the blue hover effect */ 
+    font-size: 25px;
+
+    
+}
+
+ul li a:hover
+{
+
+    background: #934dcc; /* blue colour when mouse hovers over an option */
+
+
+
 
 
 }

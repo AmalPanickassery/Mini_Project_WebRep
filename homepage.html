@@ -8,28 +8,28 @@
     </div>
   -->
 
-  <div class="dropdown">
+    <div class="backgndimg"></div>
 
-    <button class="but4">Select Building</button>
-    
-    <ul>
+    <div class="dropdown">
+      <button class="but4">Select Building</button>
+
+      <ul>
         <li><a href="locatepage.html">Main Block</a></li>
         <li><a href="locatepage.html">KE Block</a></li>
         <li><a href="locatepage.html">PG Block</a></li>
+      </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("ul").toggleClass("active");
+        });
+      });
+    </script>
 
-    </ul>
-
-
-  </div>
-
-
-
-
-
-
-
-  <!--
+    <!--
 
     <a href="locatepage.html">     
 
@@ -41,8 +41,5 @@
 
     </a>
 
-  -->
-
-
-  </body>
+  --></body>
 </html>
